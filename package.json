@@ -1,0 +1,38 @@
+{
+  "name": "hussam-seo-portfolio",
+  "version": "1.0.0",
+  "description": "Professional SEO Expert Portfolio Website for Hussam",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --host=localhost",
+    "dev": "live-server --port=3000 --host=localhost --watch=.",
+    "build": "echo 'Building for production...' && npm run minify",
+    "minify": "echo 'Minifying files...'",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [
+    "portfolio",
+    "seo",
+    "website",
+    "responsive",
+    "dark-theme",
+    "interactive"
+  ],
+  "author": "Hussam - SEO Expert",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hussam/seo-portfolio.git"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
